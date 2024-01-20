@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">บ้าน เซอร์วิส</string>
+
+    <string name="btn_lang_thai">ไทย</string>
+    <string name="btn_lang_eng">ENG</string>
+
+    <string name="btn_login">เข้าสู่ระบบ</string>
+    <string name="edt_username">ชื่อผู้ใช้</string>
+    <string name="edt_password">รหัสผ่าน</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">หน้าขาเข้า</string>
+    <string name="tab_text_2">หน้าขาออก</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

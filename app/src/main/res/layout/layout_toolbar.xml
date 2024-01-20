@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/cly_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp">
+
+    <TextView
+        android:id="@+id/btn_lang_thai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/default_kanit"
+        android:text="@string/btn_lang_thai"
+        android:textColor="@color/text_color"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toStartOf="@id/line" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="3dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/text_color"
+        app:layout_constraintTop_toTopOf="@id/btn_lang_thai"
+        app:layout_constraintBottom_toBottomOf="@id/btn_lang_thai"
+        app:layout_constraintEnd_toStartOf="@id/btn_lang_eng"/>
+
+    <TextView
+        android:id="@+id/btn_lang_eng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:fontFamily="@font/default_kanit"
+        android:textSize="22sp"
+        android:textColor="@color/text_color_disable"
+        android:text="@string/btn_lang_eng"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,37 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_main">
+
+    <fragment
+        android:id="@+id/fragment_main"
+        android:name="th.co.octagon.interactive.labktorclient.fragment.SplashFragment"
+        android:label="Fragment Main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_cardReceiverFragment_to_paymentFragment"
+            app:destination="@id/testApiCallerFragment">
+
+
+        </action>
+        <argument
+            android:name="qrKey"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/testApiCallerFragment"
+        android:name="th.co.octagon.interactive.labktorclient.fragment.LoginFragment"
+        android:label="CardReceiverFragment" >
+
+        <action
+            android:id="@+id/action_to_main"
+            app:destination="@id/fragment_main">
+        </action>
+
+        <argument
+            android:name="qrKey"
+            app:argType="string" />
+    </fragment>
+</navigation>

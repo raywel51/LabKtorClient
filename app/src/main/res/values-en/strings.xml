@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BaanSERvice</string>
+
+    <string name="btn_lang_thai">ไทย</string>
+    <string name="btn_lang_eng">ENG</string>
+
+    <string name="btn_login">Login</string>
+    <string name="edt_username">username</string>
+    <string name="edt_password">password</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">GateInPage</string>
+    <string name="tab_text_2">GateOutPage</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
